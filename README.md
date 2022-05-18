@@ -1,6 +1,9 @@
 This project shows Qt `Flickable`/`ScrollView` components twitching bug.
 
-So I tried it on different OS with different versions of Qt.
+Scrolling a ScrollView out of bound **with trackpad** (mouse works ok) on a MacBook M1 leads to content short twitch.
+Works fine on Windows.
+
+I tried it with different versions of Qt.
 And I also tried to switch `ScrollView` to `Flickable`.
 
 ## Qt 5.14.2 [MacOS, Apple M1]
